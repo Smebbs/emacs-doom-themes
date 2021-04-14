@@ -175,10 +175,10 @@ Can be an integer to determine the exact padding."
    (font-lock-keyword-face :foreground yellow :weight 'bold)
 
    ;; compilation
-   (compilation-error-face :inherit error :underline t)
+   (compilation-error :inherit error :underline t)
    (compilation-info :foreground blue)
    (compilation-line-number :foreground yellow)
-   (compilation-warning-face :foreground yellow)
+   (compilation-warning :foreground yellow)
    (compilation-mode-line-exit :foreground green+2 :weight 'bold)
 
    ;; Completions
